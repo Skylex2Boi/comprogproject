@@ -16,6 +16,7 @@ public class test {
         String cash_out = "Cash Out 2";
 
         System.out.print(cash_in + " --- " +cash_out);
+        System.out.print("Choose:");
         int in_out = input.nextInt();
 
         switch (in_out) {
