@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class test {
 
+    private static int initial_balance = 500;
     public static void main(String[] args) 
     {
         balance();
@@ -13,7 +14,6 @@ public class test {
         ArrayList<String> history = new ArrayList<>();
         
         final String currency = "Balance: $" ;
-        int initial_balance = 500;
 
         System.out.println(currency + initial_balance);
 
